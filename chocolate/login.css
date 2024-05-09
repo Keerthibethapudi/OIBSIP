@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('light2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: rgb(192, 217, 25);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #8b4d4d;
+  }
+  
+  button {
+    background-color: #0e1e02;
+    color: #131cd0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0ed78d;
+  }
+  
+  p {
+    color: rgb(196, 15, 196);
+  }
+  
